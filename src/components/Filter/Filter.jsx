@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 
 export const Filter = ({ filter, onChange }) => {
   return (
-    <>
       <form>
         <label>
           Find contacts by name
@@ -15,7 +14,6 @@ export const Filter = ({ filter, onChange }) => {
           />
         </label>
       </form>
-    </>
   );
 };
 

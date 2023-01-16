@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 export const ContactList = ({ contacts, handleDelete }) => {
   return (
-    <>
       <ul>
         {contacts.map(contact => {
           return (
@@ -17,7 +16,6 @@ export const ContactList = ({ contacts, handleDelete }) => {
           );
         })}
       </ul>
-    </>
   );
 };
 

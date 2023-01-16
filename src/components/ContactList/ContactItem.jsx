@@ -5,14 +5,12 @@ export const ContactItem = ({ id, name, number, onDelete }) => {
     onDelete(id);
   };
   return (
-    <>
       <li key={id}>
         <p>
           {name}: {number}
         </p>
         <button onClick={handleDelete}>Delete</button>
       </li>
-    </>
   );
 };
 
